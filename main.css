@@ -1,0 +1,21 @@
+body{
+
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+.head{
+
+  background-color:gainsboro;
+  padding:5px;
+  margin: 5px;
+}
+
+form, input{
+
+  border-radius: 10px;
+  border:none;
+  padding:10px;
+  text-align: center;
+}

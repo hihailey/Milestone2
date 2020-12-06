@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Milestone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="head">
+    <h1>MY PHOTO ALBUM!</h1>
+  </div>
+
+
+  <div class="main-wrapper">
+    <form class="form" enctype="multipart/form-data" action = "/upload" 
+    name = "change" method="post">
+      <input type="file" name="file" accept=".png">
+      <input type = "submit" value = "submit"/>
+
+  <article>
+  </article>
+      <input type="button" value="double" onclick="
+        fetch('html').then(function(response){
+          response.text().then(function(text){
+            document.querySelector('article').innerHTML = text;
+          })
+        })
+      ">
+    </form>
+  </div>
+    
+</body>
+</html>
